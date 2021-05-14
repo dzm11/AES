@@ -1,0 +1,39 @@
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <form>
+        <h1>AES</h1>
+        <input type="text" placeholder="Podaj tekst do zaszyfrowania" id="inputId">
+        <input type="text" placeholder="Podaj hasło" id="inputPass">
+        <button type="button" onclick="getInputValue();">Get Value</button>
+        <p>
+          <div>
+            <strong><label>Original String:</label></strong>
+            <span id="original"></span>
+          </div>
+          <div>
+            <strong><label>Encrypted:</label></strong>
+            <span id="zaszyfrowane"></span>
+          </div>
+          <div>
+            <strong><label>Decrypted:</label></strong>
+            <span id="zdeszyfrowane"></span>
+          </div>
+
+        <div>
+          <strong><label>String after Decryption:</label></strong>
+          <span id="tekst"></span>
+        </div>
+
+        </p>
+      </form> 
+    <script src="/script.js"></script>
+
+  </body>
+  
